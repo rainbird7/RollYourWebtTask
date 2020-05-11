@@ -1,7 +1,7 @@
 "use strict";
 
 app.component("view", {
-    templateUrl: "src/components/view.html",
+    templateUrl: "view/components/view.html",
     controller: "viewController",
     bindings: {
     }
