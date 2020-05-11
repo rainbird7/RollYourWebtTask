@@ -45,6 +45,18 @@ app.controller("viewController", function ($log, $http, GetDataService, PassData
             });
     }
 
+    this.navigateBack = () => {
+        this.show = true;
+        this.addRounds = true;
+        this.name = "";
+        this.score = "";
+        this.hole_name = "";
+        this.hole_number = "";
+        this.par_score = "";
+        this.holes_amount = "";
+        this.addition = 0;
+    }
+
     this.startRound = () => {
         this.show = false;
     }
