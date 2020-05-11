@@ -1,0 +1,24 @@
+{
+  "name": "RollYourWebtTask",
+  "version": "0.0.1",
+  "description": "An Arnold Palmer Game",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Melih Tuerkalp",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.7",
+    "angular": "^1.7.9",
+    "angular-animate": "^1.7.0",
+    "angular-aria": "^1.7.0",
+    "angular-cookies": "^1.7.9",
+    "angular-locale": "^0.3.1",
+    "angular-material": "^1.1.22",
+    "angular-messages": "^1.7.0",
+    "angular-resource": "^1.7.9",
+    "angular-sanitize": "^1.7.9",
+    "moment": "^2.24.0"
+  }
+}

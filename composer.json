@@ -1,0 +1,21 @@
+{
+    "name": "root/roll-your-webt-task",
+    "description": "The Arnold Palmer Games",
+    "type": "project",
+    "require": {
+        "doctrine/dbal": "^2.10",
+        "ext-json": "*"
+    },
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Melih Tuerkalp",
+            "email": "6161@htl.rennweg.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+
+        }
+    }
+}
