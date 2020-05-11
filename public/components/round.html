@@ -1,0 +1,31 @@
+<div style="overflow-x:auto;">
+    <table style="width:100%; text-align:left ">
+        <tr>
+            <th>Hole number</th>
+            <th>Hole name</th>
+            <th>Name</th>
+            <th>Scored</th>
+            <th>PAR Score</th>
+            <th>PAR Name</th>
+            <th>Stableford Points</th>
+        </tr>
+        <tr ng-repeat="round in $ctrl.rounds | orderBy: 'hole_number'">
+            <td> {{round.hole_number}}</td>
+            <td> {{round.hole_name}} </td>
+            <td> {{round.player_name}} </td>
+            <td> {{round.scored}} </td>
+            <td> {{round.par_score}} </td>
+            <td> {{round.par_name}}</td>
+            <td> {{round.stableford_points}}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>{{$ctrl.maxPoints}}</td>
+        </tr>
+    </table>
+</div>
