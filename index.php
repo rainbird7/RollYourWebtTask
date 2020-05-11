@@ -1,6 +1,7 @@
 <?php
 
 require('vendor/autoload.php');
+require('src/classes/Round.php');
 require('dbconfig.php');
 
 header("Access-Control-Allow-Origin: *");
