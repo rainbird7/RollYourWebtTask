@@ -55,6 +55,7 @@ app.controller("viewController", function ($log, $http, GetDataService, PassData
         this.par_score = "";
         this.holes_amount = "";
         this.addition = 0;
+        PassDataService.deleteDB();
     }
 
     this.startRound = () => {
