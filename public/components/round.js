@@ -1,7 +1,7 @@
 "use strict";
 
 app.component("round", {
-    templateUrl: "src/components/round.html",
+    templateUrl: "view/components/round.html",
     controller: "roundController",
     bindings: {
         rounds: "<",
